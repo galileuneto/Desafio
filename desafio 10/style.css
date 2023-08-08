@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:Idroid;
+    src: url('idroid.otf'),format('opentype');
+}
+* {
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgba(96, 252, 187, 0.842);
+}
+main {
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+   
+   
+}
+
+header {
+    margin-left: -20px;
+    margin-right: -20px;
+    background-image: linear-gradient(to bottom, #2ffa8a, #065027);
+    height: 180px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    box-shadow: 1px 1px 2px  rgba(0, 0, 0, 0.308);
+    
+}
+
+header > p {
+    font-size: 1.2em;
+}
+
+nav {
+    text-align: left;
+    padding: 60px;
+    padding-left: 20px;
+}
+ nav > a {
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+ }
+
+ nav > a:hover{
+    background-color: #219e5f;
+    border-radius: 10px;
+ }
+
+span > a {
+    color: #024926;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#bugdroid {
+    display: flex;
+    margin: auto;
+}
+
+h1 {
+    font-family:Idroid, 'Times', sans-serif;
+    color: #046132;
+}
+
+h2 {
+    
+    font-family:Idroid, 'Times', sans-serif;
+    color: #046132;
+    background-image: linear-gradient(to left, rgba(136, 250, 170, 0.212), rgba(9, 121, 9, 0.377));
+    margin-left: 10px;
+    text-indent: 20px;
+}
+p {
+    text-indent: 40px;
+}
+.video {
+    margin: 0 -10px 0 -10px;
+    border-radius: 0;
+    background-color: #024926;
+    
+
+}
+
+div {
+    margin: 5px;
+    text-align: center;
+    background-color: rgba(154, 240, 190, 0.774);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.185);
+    
+}
+
+div > h2 {
+    text-align: left;
+    height: 40px;
+    padding-top: 10px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #219e5f;
+    border-radius: 10px 10px 0 0;
+}
+
+div > p {
+    text-align: left;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+
+
+
+ul{
+    margin-left: 150px;
+    text-align: left;
+    columns: 300px;
+    list-style-type:none ;
+   
+}
+
+ul li::before {
+    content: "\2714";
+    margin: 5px;
+}
+
+
+footer {
+    background-color:black ;
+    color: white;
+    text-align: center;
+
+}
+
+footer > p {
+    padding: 1px;
+}
