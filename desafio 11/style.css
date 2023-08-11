@@ -14,6 +14,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 header {
     max-width: 100%;
     height: 200px;
@@ -24,42 +25,61 @@ header {
 }
 
 header > h1 {
-    font-size: 5.5em;
+    
+    font-size: 6vw;
     font-family: var(--font-titulo);
     font-weight: normal;
-    padding-top: 60px;
-}
-main {
-    width: 390px;
-}
-main p {
-    font-family: var(--font-paragrafos);
-    font-size: 1.8em;
     
-    padding: 20px;
-    margin: 10px;
 }
 
-.conteiner {
-    width: 100vw;
-    min-width:100vw;
-    background: transparent url('imagens/background001.jpg') center center no-repeat fixed;
+main p {
+    font-size: 3vmax;
+    font-family: var(--font-paragrafos);
+    padding: 30px;
+    margin: 20px;
+
+}
+
+#imagem1 {
+    max-width: 100vmax;
+    height: 55vmax;
+    background: transparent url('imagens/background001.jpg') no-repeat center right fixed;
     background-size: cover;
     
 }
-
+.foto3 {
+    position: relative;
    
-#foto1 {
-    margin: 10px;
-    width: 290px;
-    background-color: rgba(228, 222, 222, 0.164);
-    border: 1px solid rgba(0, 0, 0, 0);
+}
+.foto {
+    color: white;
+    background-color: rgba(2, 2, 2, 0.336);
+    position: absolute;
+    top: 5vmin;
+}
+
+#imagem2 {
+    max-width: 100vmax;
+    height: 55vmax;
+    background: transparent url('imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
     
+
 }
 
 
-
-footer{
+footer > p{
+    text-align: center;
     background-color: black;
     color: white;
+}
+
+footer > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: blue;
+    text-decoration: underline;
 }
